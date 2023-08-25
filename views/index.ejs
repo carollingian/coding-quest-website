@@ -1,0 +1,27 @@
+<%- include ('partials/head.ejs'); %>
+<body>
+    <%- include ('partials/navbar.ejs'); %>
+    <div class="container">
+        <br>
+        <h2>Check out the questions from other Devs!
+            <hr>
+            <div style="text-align: right;">
+                <a href="/questioning" class="btn btn-warning">Ask your question!</a>
+            </div>
+        </h2>
+        <% question.forEach(question => { %>
+            <div class="card" id="card">
+                <div class="card-body">
+                    <h4><%= question.title %></h4>
+                </div>
+                <div class="card-footer">
+                    <p><%= question.description %></p>
+                    <label><%= question.createdAt %></label>
+                    <br><br>
+                    <a href="/question/<%= question.id %>" class="btn btn-warning">Answer</a>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+</body>
+<%- include ('partials/foot.ejs'); %>

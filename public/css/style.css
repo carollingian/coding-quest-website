@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(48, 47, 48);
+}
+
+#navbar {
+    background-color: rgb(40, 39, 41);
+}
+
+#card, .card {
+    background-color: rgb(40, 39, 41);
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+h2, h3 {
+    color: #ffc107;
+    font-weight: 1000;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h4 {
+    color: #ffc107;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+label {
+    color: #ffc107;
+    font-weight: 500;
+}
+

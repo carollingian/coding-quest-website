@@ -1,0 +1,18 @@
+{
+  "name": "coding-quest",
+  "version": "1.0.0",
+  "description": "A Q&A Platform for dev users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carolina Fernandes de Campos (carollingian)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1"
+  }
+}
